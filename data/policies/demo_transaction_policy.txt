@@ -1,0 +1,32 @@
+FinGuard AI - Demonstration Transaction Investigation Policy
+
+DOCUMENT TYPE: Synthetic demonstration policy
+STATUS: Not an official banking regulation or legal standard.
+
+1. Purpose
+This document provides example investigation guidance for the FinGuard AI demonstration system.
+
+2. Transaction Risk
+A transaction should be reviewed when multiple unusual signals are present.
+A single unusual signal should not automatically establish fraud.
+
+3. Transfer Transactions
+Transfer transactions may receive additional scrutiny because the analyzed demonstration dataset contains a higher concentration of fraud in this transaction category.
+
+4. Balance Anomalies
+Unexpected sender or recipient balance changes should be investigated.
+Missing or inconsistent information must be treated as unknown rather than proof of fraud.
+
+5. Human Review
+High-risk and medium-risk cases should be routed for human review.
+The reviewer should inspect transaction details and supporting evidence before making a decision.
+
+6. Decision Restrictions
+The system must not automatically freeze accounts, reverse payments, or declare a customer guilty of fraud.
+
+7. Evidence Requirements
+Investigation reports must distinguish observed facts, calculated risk signals, and assumptions.
+The system must not invent missing transaction details.
+
+8. Escalation
+Cases with insufficient evidence, conflicting signals, or failed policy retrieval should be escalated for manual investigation.

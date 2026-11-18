@@ -1,0 +1,25 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+.env.*
+!.env.example
+chroma_db/
+data/*.db
+reports/
+*.log
+.streamlit/secrets.toml
+
+# SQLite databases and checkpoint files
+*.sqlite
+*.sqlite3
+*.sqlite-shm
+*.sqlite-wal
+data/*.db
+data/*.sqlite*
+
+# Large datasets - keep locally, don't upload to GitHub
+data/raw/*.csv
+data/processed/*.csv
